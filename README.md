@@ -1,4 +1,4 @@
-##定值范围选择控件
+##多效果TextView控件
 ##效果演示:
 ![](https://github.com/Brioal/DeleteLineTextView/blob/master/art/1.png)
 ##添加依赖库的步骤
