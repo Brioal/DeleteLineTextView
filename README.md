@@ -1,8 +1,8 @@
-##多效果TextView控件
-##效果演示:
+## 多效果TextView控件
+## 效果演示:
 ![](https://github.com/Brioal/DeleteLineTextView/blob/master/art/1.png)
-##添加依赖库的步骤
-###1.项目的gradle文件内的做以下改动
+## 添加依赖库的步骤
+### 1.项目的gradle文件内的做以下改动
 ```
 allprojects {
 		repositories {
@@ -11,15 +11,15 @@ allprojects {
 		}
 	}
 ```
-###2.添加最新版本的依赖库,最新版本如右所示,修改末尾的版本即可(因为我有时候更新版本了会忘记修改readme)[![](https://jitpack.io/v/Brioal/DeleteLineTextView.svg)](https://jitpack.io/#Brioal/DeleteLineTextView)
+### 2.添加最新版本的依赖库,最新版本如右所示,修改末尾的版本即可(因为我有时候更新版本了会忘记修改readme)[![](https://jitpack.io/v/Brioal/DeleteLineTextView.svg)](https://jitpack.io/#Brioal/DeleteLineTextView)
 ```
 dependencies {
 	        compile 'com.github.Brioal:DeleteLineTextView:1.0'
 	        ////例如上面最新版本是1.1,则只要把1.0改成1.1即可使用最新版本
 	}
 ```
-##使用步骤:
-###1.xml布局文件
+## 使用步骤:
+### 1.xml布局文件
 
 ```
      <com.brioal.textview.MultEffetTextView
@@ -30,7 +30,7 @@ dependencies {
         android:text="多种效果的文本显示控件,包含下划线,删除线,粗体,链接等的效果"/>
 
 ```
-###2.代码设置
+### 2.代码设置
 ```
      mTextView = (MultEffetTextView) findViewById(R.id.main_tv);
         mTextView.setText("下划线,删除线,大字体,小字体,前景色,背景色,正常字体,加粗字体,斜体,粗斜体,下标,上标,点击拨号,点击打开百度,点击发送短信,点击发送彩信,Icon");
@@ -53,7 +53,7 @@ dependencies {
         mTextView.setDrawable(getResources().getDrawable(R.mipmap.ic_launcher), 73, 77);
 
 ```
-###3.提供的供自定义视图的方法
+### 3.提供的供自定义视图的方法
 方法|功能
 :--|:--
 `void setDeleteLine()`|设置全部的删除线
@@ -80,14 +80,7 @@ dependencies {
 `void setDrawable(Drawable drawable, int start, int end)`|设置项目符号
 
 
-####完毕~
-####写在后面
-####1.我的其他的一些开源库,有兴趣的可以点进去看看给个star啥的
-####[多达288种动画效果定制的侧滑菜单库](https://github.com/Brioal/SwipeMenuDemo)
-####[仿京东首页垂直跑马灯组件](https://github.com/Brioal/ADTextView)
-####[仿360底部菜单布局](https://github.com/Brioal/BottomTabLayout)
-####[快速搭建设置界面开源库](https://github.com/Brioal/BrioalSetting)
-####[仿知乎首页轮播组件](https://github.com/Brioal/Banner)
-####[流式布局,封装用于显示标签](https://github.com/Brioal/Label)
+#### 完毕~
+#### 写在后面
 
 ####2.建了个交流Android开发的QQ群,欢迎新手老手:群号:375276053
